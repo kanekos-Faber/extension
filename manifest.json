@@ -1,0 +1,20 @@
+{
+    "name": "myextention",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/"
+            ],
+            "css": [
+                "mystyles.css"
+            ],
+            "js": [
+                "vue.js",
+                "RecordRTC.js",
+                "myscript.js"
+            ]
+        }
+    ]
+}
