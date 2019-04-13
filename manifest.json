@@ -7,9 +7,6 @@
             "matches": [
                 "https://www.google.com/"
             ],
-            "css": [
-                "mystyles.css"
-            ],
             "js": [
                 "vue.js",
                 "RecordRTC.js",
